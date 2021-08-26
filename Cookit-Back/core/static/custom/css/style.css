@@ -1,0 +1,736 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 70px !important;
+    background-color: lightgray;
+    display: flex;
+}
+
+.descricao-tela-inicial {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #F3EFEF !important;
+    border-bottom: 1px solid #707070;
+}
+
+#nav-icon {
+    color: black;
+    vertical-align: middle;
+}
+
+.nav-link {
+    padding: 0 1vw 0 1vw;
+}
+
+.navbar-brand {
+    align-self: center;
+    justify-content: center;
+    font-size: 0;
+}
+
+#nav-icon-span {
+    font-size: 12px;
+}
+
+#search-input {
+    outline: none;
+    box-shadow: none !important;
+    border-radius: 36px 0 0 36px;
+    width: 20vw;
+}
+
+#search-button {
+    padding: 0 1em 0 1em;
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+    margin-left: -1px;
+    border-radius: 0 36px 36px 0 !important;
+}
+
+#search-button i {
+    vertical-align: middle;
+}
+
+i {
+    text-decoration: none !important;
+    color: black;
+}
+
+
+/* Cad. Edit. Receita */
+
+
+/*-editarreceita*/
+
+
+/*
+.Textefdp{
+    background-color: #FC1D00;
+}
+*/
+
+.container {
+    border: none !important;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: white;
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+}
+
+#search-input-editarreceita {
+    outline: none;
+    box-shadow: none !important;
+    border-radius: 36px 0 0 36px;
+    width: 20vw;
+}
+
+#search-button-editarreceita {
+    border-radius: 0 36px 36px 0;
+    padding: 0 1em 0 1em;
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+    margin-left: -1px;
+}
+
+#search-button-editarreceita i {
+    vertical-align: middle;
+}
+
+#thumbnail-input-group-editarreceita {
+    padding: 1em 0 1em 0 !important;
+}
+
+.jumbotron {
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+
+#thumbnail-input-editarreceita {
+    list-style-type: none;
+    width: 10vw;
+    height: 10vw;
+    font-size: 4vw;
+    color: black;
+    border: 1px solid gray;
+}
+
+#thumbnail-input-editarreceita a {
+    color: black
+}
+
+#prep-time-editarreceita,
+textarea,
+#portions-editarreceita {
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+}
+
+#prep-input-editarreceita {
+    height: 60px;
+}
+
+#prep-input-editarreceita textarea {
+    min-width: 40px;
+    resize: none;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+}
+
+h3,
+h4 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.form-control,
+.input-group-text,
+.custom-control-input {
+    border: 1px solid gray !important;
+}
+
+#portions-editarreceita,
+#prep-time-editarreceita,
+#difficulty-editarreceita {
+    border-radius: 0 36px 36px 0;
+}
+
+.input-label-editarreceita {
+    border-radius: 36px 0 0 36px !important;
+}
+
+#submit-button-editarreceita {
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid gray !important;
+    color: black;
+    margin: 0 !important;
+}
+
+#prep-button-editarreceita {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    color: black;
+}
+
+.form {
+    align-items: center;
+    justify-content: center;
+}
+
+#easy-editarreceita {
+    background-color: #B1FF62;
+}
+
+#medium-editarreceita {
+    background-color: #FFE132;
+}
+
+#hard-editarreceita {
+    background-color: #FC1D00;
+}
+
+#super-editarreceita {
+    background-color: #191919;
+}
+
+#prep-mode-editarreceita div div {
+    border-radius: 18px !important;
+}
+
+#prep-editarreceita .jumbotron {
+    height: 460px !important;
+}
+
+
+/* Edit. Perfil */
+
+
+/*-editarperfil*/
+
+.container {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    background-color: white;
+    padding-top: 1em;
+}
+
+.card {
+    background-color: #F3EFEF;
+}
+
+.config-1-editarperfil {
+    height: 180px !important;
+}
+
+.config-2-editarperfil {
+    height: 340px !important;
+}
+
+textarea,
+.card {
+    border-radius: .75em !important;
+}
+
+.editarperfil button {
+    border-radius: 2em !important;
+}
+
+.social-editarperfil input {
+    border-radius: 0 2em 2em 0 !important;
+    width: 90%;
+}
+
+.social-editarperfil .input-group-text {
+    border-radius: 2em 0 0 2em !important;
+    width: 40px;
+}
+
+
+/* Fav. */
+
+
+/* -favoritos */
+
+.stars-favoritos {
+    color: yellow;
+}
+
+.receitas-favoritos {
+    background-color: #F3EFEF;
+    border: 1px solid gray;
+}
+
+.receita-favoritos {
+    border: 1px solid gray;
+}
+
+.utensils-favoritos {
+    text-align: center;
+    font-size: 2em;
+    height: 2em;
+    width: 2em;
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+
+.see-more-favoritos,
+.see-more-favoritos:hover {
+    width: 20%;
+    align-self: center;
+    border-radius: 1em 1em 0 0 !important;
+    border: 1px solid gray !important;
+    border-bottom-width: 0;
+    background-color: lightgray;
+    color: black;
+    font-size: 1.5em;
+}
+
+
+/*========================================================================*/
+
+
+/* dropdown */
+
+.greenColor {
+    background-color: #33CC33;
+}
+
+.orangeColor {
+    background-color: #FF8C00;
+}
+
+.redColor {
+    background-color: #E60000;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+    padding: 1em;
+    width: 12%;
+    background-color: #F3EFEF;
+    border-right: 1px solid black;
+}
+
+.stars-sidebar {
+    font-size: 1em;
+}
+
+#order-by {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+}
+
+#intel,
+#categories {
+    padding-top: 1em;
+}
+
+#intel {
+    border-bottom: 1px solid black;
+}
+
+#sidebar .input-label-sidebar {
+    border-radius: 1em 1em 0 0;
+    margin-bottom: -1px;
+}
+
+#sidebar label,
+#sidebar select,
+#sidebar input {
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+}
+
+#sidebar select,
+#sidebar input {
+    border-radius: 0 0 1em 1em;
+}
+
+
+/* Tela Inicial */
+
+
+/* -tela-inicial */
+
+.receita-tela-inicial {
+    /*    padding: 2em 2em 0 2em !important; */
+    background-color: white;
+    /*    border-radius: 0.5em; */
+}
+
+.cards-tela-inicial {
+    /*    margin: 1em !important;
+        border-radius: 1em;
+        border: 1px solid #707070; */
+    padding-top: 1em;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.utensils-tela-inicial {
+    text-align: center;
+    height: 2em;
+    width: 2em;
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+
+div p,
+ul li {
+    font-size: 12px;
+}
+
+
+/*
+.col-sm {
+    padding-left: 0 !important;
+}
+*/
+
+.prep-mode-tela-inicial {
+    border-bottom: 1px solid gray;
+    margin-bottom: 1em;
+}
+
+.ingredients-tela-inicial {
+    padding-left: 2em !important;
+    border-left: 1px solid gray;
+}
+
+.see-more-tela-inicial {
+    width: 100%;
+    align-self: center;
+    /*    border-radius: 1em 1em 0 0 !important; */
+    border-top: 1px solid gray;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: .50em;
+    border-bottom-left-radius: .50em;
+    background-color: lightgray;
+    color: black;
+    /*    font-size: 1.5em; */
+}
+
+.see-more-tela-inicial:hover {
+    background-color: gray;
+    border-color: black;
+}
+
+.info-tela-inicial {
+    text-align: center;
+}
+
+.fa-star {
+    color: orange;
+}
+
+#keywords {
+    border-bottom: 1px solid black;
+}
+
+.card-img-top {
+    object-fit: cover;
+    object-position: center;
+    height: 180px;
+    border-top-left-radius: .50em;
+    border-top-right-radius: .50em;
+}
+
+.descricao-tela-inicial {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify !important;
+    margin-bottom: 1em;
+    height: 70px;
+}
+
+.card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #ABA11B;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fav-tela-inicial {
+    position: relative !important;
+    float: right !important;
+}
+
+.card-text {
+    text-align: center;
+}
+
+hr {
+    border-color: black;
+}
+
+
+/* Receita Complete */
+
+
+/* -receita-completa */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+}
+
+#receita-receita-completa {
+    border: 1px solid #707070;
+    border-radius: 1em;
+    background-color: #F3EFEF;
+}
+
+#dados-receita-completa,
+#comentarios-receita-completa {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+}
+
+#titulo-receita-completa {
+    text-align: center;
+}
+
+#titulo-receita-completa h3 {
+    color: #ABA11B;
+}
+
+#opcoes-receita-completa {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#icones-receita-completa {
+    border: 1px solid #707070;
+    background-color: #F3EFEF;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+.icon-text-receita-completa {
+    text-align: center;
+    max-width: 7em;
+}
+
+.icon-text-receita-completa i {
+    font-size: 2em;
+}
+
+.icon-text-receita-completa p {
+    margin-bottom: 0;
+}
+
+.utensils-receita-completa {
+    padding: 1em;
+    border: 1px solid grey;
+    background-color: darkgray;
+    max-width: 3.5em;
+    max-height: 3.5em;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#alinhamento-ingredientes {
+    border: 1px solid #707070;
+    border-radius: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+#alinhamento-ingredientes p {
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+    display: inline-block;
+    border: 1px solid #707070;
+    border-radius: 1.5em;
+    height: 28px;
+}
+
+#alinhamento-ingredientes p::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+#modo-de-preparo-receita-completa p {
+    border: 1px solid #707070;
+    background-color: #F3EFEF;
+    border-radius: 1em;
+    font-size: 12px;
+    padding: 1em;
+    text-align: justify;
+    text-justify: initial;
+}
+
+#alinhamento-ingredientes,
+#modo-de-preparo-receita-completa p {
+    min-height: 120px;
+    max-height: 240px;
+    overflow: auto;
+}
+
+#alinhamento-ingredientes::-webkit-scrollbar,
+#modo-de-preparo-receita-completa p::-webkit-scrollbar {
+    width: 1.5em;
+}
+
+
+/* Handle */
+
+#alinhamento-ingredientes::-webkit-scrollbar-thumb,
+#modo-de-preparo-receita-completa p::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 1em;
+    border: 0.5em solid transparent;
+    background-clip: content-box;
+}
+
+
+/* Handle on hover */
+
+#alinhamento-ingredientes::-webkit-scrollbar-thumb:hover,
+#modo-de-preparo-receita-completa p::-webkit-scrollbar-thumb:hover {
+    background: #444;
+    border-radius: 1em;
+    border: 0.5em solid transparent;
+    background-clip: content-box;
+}
+
+textarea {
+    resize: none;
+    border-radius: 1em;
+    width: 100%;
+}
+
+#usuario-receita-completa,
+#obad-receita-completa {
+    border: 1px solid #707070;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+#icones-usuario-receita-completa,
+#usuario-receita-completa i,
+#usuario-receita-completa h4 {
+    text-align: center;
+}
+
+#usuario-receita-completa i {
+    font-size: 4em;
+}
+
+#icones-usuario-receita-completa i {
+    font-size: 2em;
+}
+
+.line-receita-completa {
+    border-left: 1px solid black;
+    height: 65px;
+    width: 16.6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-star {
+    color: orange;
+}
+
+.receita-foto {
+    object-fit: cover;
+    /* Do not scale the image */
+    object-position: center;
+    /* Center the image within the element */
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+    border: 1px solid #707070;
+}
+
+
+/* tag-container */
+
+
+.tag-container {
+    display: flex !important;
+}
+
+.tag-container input {
+    border: none;
+    outline: none;
+}
+
+.tag {
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+}
+
+.tag input {
+    width: 100px;
+    -ms-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.tag .fa-times{
+    color: white !important;
+}
